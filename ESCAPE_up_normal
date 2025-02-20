@@ -57,11 +57,11 @@ showMenu()
 NormalEscapeButton.MouseButton1Click:Connect(function()
     hideMenu()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "⚠️Escape Mode Selected⚠️";
-        Text = "Normal Escape mode activated!";
+        Title = "🚫No Escape Selected🚫";
+        Text = "No escape";
         Duration = 5;
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/ESCAPE_sea2_sea3/refs/heads/main/ESCAPE_sea2_sea3"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/NONE/refs/heads/main/NONE"))()
 end)
 
 AdvancedEscapeButton.MouseButton1Click:Connect(function()
